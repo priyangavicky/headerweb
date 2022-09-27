@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Playball;
+    font-size: 110%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header {
+    background-color: rgb(69, 234, 143);
+    height: 15vh;
+}nav {
+    /* background-color: red; */
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    /* background-color: blue; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    height: 50%;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: white; */
+    width: 40%;
+    height: 100%;
+}
+.dropdown{
+    position: absolute;
+    display:none;
+}
+.nav-links li:hover .dropdown{
+    display: block;
+}
+button{
+    margin-left: 50px;
+    border-radius: 50px;
+}
+
+
+
+

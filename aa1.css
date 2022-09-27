@@ -1,0 +1,12 @@
+h3{
+    color: blue;
+    background-color: aqua;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-style: italic;
+}
+body{
+    background-color: blueviolet;
+    background-image: url(manchester.png);
+}
